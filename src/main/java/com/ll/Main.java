@@ -7,6 +7,9 @@ public class Main {
 
         흰오리 a흰오리 = new 흰오리();
         a흰오리.날다();
+
+        고무오리 a고무오리 = new 고무오리();
+        a고무오리.날다();
     }
 }
 
@@ -21,3 +24,6 @@ class 청둥오리 extends 오리 {
 
 class 흰오리 extends 오리 {
 }
+class 고무오리 extends 오리 {
+}
+
