@@ -10,13 +10,14 @@ public class Main {
     }
 }
 
-class 청둥오리 {
+class 오리 {
     void 날다() {
         System.out.println("오리가 날개로 날아갑니다.");
     }
+}
 
-}class 흰오리 {
-    void 날다() {
-        System.out.println("오리가 날개로 날아갑니다.");
-    }
+class 청둥오리 extends 오리 {
+}
+
+class 흰오리 extends 오리 {
 }
