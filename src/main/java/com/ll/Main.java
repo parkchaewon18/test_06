@@ -35,8 +35,6 @@ class 고무오리 extends 오리 {
     } //오버라이드 : 자신이 가지고 있는 날다를 우선적으로 적용
 }
 
-class 고무2오리 extends 오리 {
-    void 날다() {
-        System.out.println("저는 날 수 없어요. ㅜㅜ");
-    } //오버라이드 : 자신이 가지고 있는 날다를 우선적으로 적용
+class 고무2오리 extends 고무오리 {
+
 }
